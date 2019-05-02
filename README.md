@@ -27,4 +27,10 @@
 
   ![Results](images/blastoff.png)  
 
-3. Write a **FUNCTION** called `ninetyNineBottles` that console.logs the lyrics to [99 Bottles of Beer on the Wall](http://www.99-bottles-of-beer.net/lyrics.html). Hint: You should loop, but don't use an array. Instead you should declare a variable outside of the loop that is initialized to 99.
+3. Write a **FUNCTION** called `ninetyNineBottles` that console.logs the lyrics to [99 Bottles of Beer on the Wall](http://www.99-bottles-of-beer.net/lyrics.html). Hint: You should loop, but don't use an array. Instead you should declare a variable outside of the loop that is initialized to 99. See the example below.
+```
+var initialNum = 4;
+for (initialNum; initialNum > 0; initialNum--) {
+    console.log("here is the initial number", initialNum)
+}
+```
