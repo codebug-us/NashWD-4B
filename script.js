@@ -1,34 +1,52 @@
 document.addEventListener('DOMContentLoaded', function() {
   // Write your JavaScript below. After you finish a section, comment out the code (command + ?)
   
-  console.log("*********Names, Names, Names***********");
+  // console.log("*********Names, Names, Names***********");
   ///////////// Names, Names, Names /////////////
   ///////////////////////////////////////////////
-
-
+// var names = ["Sam", "Alex", "Ford"]
+//   for(var i = 0;i< names.length; i++){
+//     console.log(names[i] + " is so smart");
+//   }
+// //
 
 
 
   ///////////////////////////////////////////////
   ///////////////////////////////////////////////
 
-  console.log("*********Best Num, Num, Nums***********");
+  // console.log("*********Best Num, Num, Nums***********");
   ///////////// Best Num, Num, Nums /////////////
   ///////////////////////////////////////////////
 
 
+// var nums = [ 19, 20, 47, 55, 97, 99]
+//   for(var i = 0;i< nums.length; i++){
+//     if (nums[i] > 40){
+//      console.log(nums[i] + " is greater than 40")
+//     } else {
+//        console.log(nums[i] + " is less than 40")
+//     }
+// }
+// console.log(nums[i])
 
-
-
+// var nums = [ 19, 20, 47 ,55, 97, 99]
+//   for(var i = 0;i< nums.length; i++){
+//     console.log(nums[i])
+//     console.log(Math.sqrt(nums[i]))
+//   }
   ///////////////////////////////////////////////
   ///////////////////////////////////////////////
 
-  console.log("*********Worst, Num, Num, Nums***********");
+  // console.log("*********Worst, Num, Num, Nums***********");
   //////////// Worst, Num, Num, Nums  ///////////
   ///////////////////////////////////////////////
 
 
-
+// var nums = [ 2, 7, 12, 23, 35, 42, 58, 63, 77, 99]
+//   for(var i = 0;i< nums.length; i++){
+//     console.log(nums[i] % 2 === 0);
+//   }
 
 
   ///////////////////////////////////////////////
@@ -37,6 +55,28 @@ document.addEventListener('DOMContentLoaded', function() {
   console.log("*********Challenge, Challenge, Challenge***********");
   //////   Challenge, Challenge, Challenge  //////
   ///////////////////////////////////////////////
+// var nums = [ 2, 7, 12, 23, 35, 42, 58, 63, 77, 99];
+//   function sum(nums){
+//     var sum = 0;
+//     for(var i = 0;i < nums.length; i++){
+//       sum += nums[i]
+//     }
+//     return sum 
+//   }
+//    console.log(sum(nums))
+   
+
+  
+
+
+
+
+
+
+
+
+
+
 
   //////////////////////////////////////////////////////////////////////////
     // Write `sum` below. 
@@ -56,8 +96,14 @@ document.addEventListener('DOMContentLoaded', function() {
   //////////////////////////////////////////////////////////////////////////
     // Write `blastOff` below. 
 
-    
-
+function blastOff(num){
+  for(var i = num;i > 0; i--) {
+    console.log(i)
+  }
+  console.log(" blast Off!")
+  return
+} 
+console.log(blastOff(100)) 
 
 
     
